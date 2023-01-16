@@ -1,0 +1,104 @@
+.row div div{
+    background: gray;
+}
+
+.navbar-gray{
+    background-color: #808079;
+    border-color: black;
+}
+.navbar-gray {
+    background-color: #808079;
+    border-color: black;
+}
+.navbar-gray .navbar-brand {
+    color: black;
+}
+.navbar-gray .navbar-brand:hover,
+.navbar-gray .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-gray .navbar-text {
+    color: black;
+}
+.navbar-gray .navbar-nav > li > a {
+    color: black;
+}
+.navbar-gray .navbar-nav > li > a:hover,
+.navbar-gray .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+}
+.navbar-gray .navbar-nav > .active > a,
+.navbar-gray .navbar-nav > .active > a:hover,
+.navbar-gray .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: black;
+}
+.navbar-gray .navbar-nav > .disabled > a,
+.navbar-gray .navbar-nav > .disabled > a:hover,
+.navbar-gray .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-gray .navbar-toggle {
+    border-color: black;
+}
+.navbar-gray .navbar-toggle:hover,
+.navbar-gray .navbar-toggle:focus {
+    background-color: #494040;
+}
+.navbar-gray .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navbar-gray .navbar-collapse,
+.navbar-gray .navbar-form {
+    border-color: black;
+}
+.navbar-gray .navbar-nav > .open > a,
+.navbar-gray .navbar-nav > .open > a:hover,
+.navbar-gray .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: black;
+}
+@media (max-width: 767px) {
+    .navbar-gray .navbar-nav .open .dropdown-menu > li > a {
+        color: black;
+    }
+    .navbar-gray .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-gray .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .navbar-gray .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-gray .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-gray .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: black;
+    }
+    .navbar-gray .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-gray .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-gray .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-gray .navbar-link {
+    color: black;
+}
+.navbar-gray .navbar-link:hover {
+    color: #333;
+}
+.navbar-gray .btn-link {
+    color: black;
+}
+.navbar-gray .btn-link:hover,
+.navbar-gray .btn-link:focus {
+    color: #333;
+}
+.navbar-gray .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-gray .btn-link:hover,
+.navbar-gray .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-gray .btn-link:focus {
+    color: #ccc;
+}
